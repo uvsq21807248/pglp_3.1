@@ -43,12 +43,16 @@ public class AppTest
     	emploie e2=new emploie (2020);
     	vendeur v1=new vendeur(10);
     	vendeur v2=new vendeur(20);
+    	Manager m1=new Manager(20);
+    	Manager m2=new Manager(40);
     	
     	ArrayList <allEmploie> listEmploie=new ArrayList <allEmploie>();
     	listEmploie.add(e1);
     	listEmploie.add(e2);
     	listEmploie.add(v1);
     	listEmploie.add(v2);
+    	listEmploie.add(m1);
+    	listEmploie.add(m2);
     }
     	
     }
