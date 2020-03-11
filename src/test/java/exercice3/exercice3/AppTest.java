@@ -38,21 +38,12 @@ public class AppTest
         assertTrue( true );
     }
     public void test() {
-    	Manager m1=new Manager(20);
-    	vendeur v1=new vendeur(10);
-    	vendeur v2=new vendeur(20);
     	emploie e1=new emploie (2010);
     	emploie e2=new emploie (2020);
     	ArrayList <allEmploie> listEmploie=new ArrayList <allEmploie>(); 
     	listEmploie.add(e1);
     	listEmploie.add(e2);
-    	listEmploie.add(v1);
-    	listEmploie.add(v2);
-    	listEmploie.add(m1);
-    	double salaireTotal=0;
-    	for (int i=0;i<listEmploie.size();i++) {
-    		salaireTotal += listEmploie.get(i).salaire();
-    	}
+    }
     	
     }
-}
+
