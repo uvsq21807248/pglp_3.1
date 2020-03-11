@@ -38,11 +38,17 @@ public class AppTest
         assertTrue( true );
     }
     public void test() {
+    	
     	emploie e1=new emploie (2010);
     	emploie e2=new emploie (2020);
-    	ArrayList <allEmploie> listEmploie=new ArrayList <allEmploie>(); 
+    	vendeur v1=new vendeur(10);
+    	vendeur v2=new vendeur(20);
+    	
+    	ArrayList <allEmploie> listEmploie=new ArrayList <allEmploie>();
     	listEmploie.add(e1);
     	listEmploie.add(e2);
+    	listEmploie.add(v1);
+    	listEmploie.add(v2);
     }
     	
     }
